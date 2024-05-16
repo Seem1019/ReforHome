@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReforHome</title>
+    <meta name="description" content="ReforHome - Distribuimos y diseñamos espacios de calidad.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+    <header>
+        <h1>ReforHome</h1>
+        <p>Distribuimos y diseñamos espacios de calidad.</p>
+    </header>
+
+    <nav>
+        <a href="#productos">Productos</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section id="productos">
+        <h2>Catálogo de Productos</h2>
+        <div class="producto">
+            <h3>Producto 1</h3>
+            <p>Descripción del Producto 1</p>
+        </div>
+        <div class="producto">
+            <h3>Producto 2</h3>
+            <p>Descripción del Producto 2</p>
+        </div>
+        <!-- Añade más productos aquí -->
+    </section>
+
+    <section id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>ReforHome es una empresa dedicada a distribuir y diseñar espacios de calidad. Nos enorgullece ofrecer productos de alta calidad a precios competitivos.</p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Quiero que me contacten</button>
+        </form>
+
+        <div id="map"></div>
+    </section>
+
+    <footer>
+        <a href="https://wa.me/yourphonenumber" target="_blank">WhatsApp</a>
+        <a href="https://www.instagram.com/yourprofile" target="_blank">Instagram</a>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
